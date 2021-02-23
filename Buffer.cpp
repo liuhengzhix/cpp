@@ -42,7 +42,7 @@ int main()
 
     int g;
     gets(g);//参数是一个数组类型，返回值是String类型
-    printf("%d", g);
+    printf("%d ", g);
 
 
     return 0;
