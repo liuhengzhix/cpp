@@ -5,24 +5,24 @@ int main()
 {
 
     /*
-        µ÷ÓÃÐÎÊ½Îª£º
+        è°ƒç”¨å½¢å¼ä¸ºï¼š
         SetConsoleTextAttribute( HANDLE hConsoleOutput, WORD wAttributes );
-        hConsoleOutput ±íÊ¾¿ØÖÆÌ¨»º³åÇø¾ä±ú£¬¿ÉÒÔÍ¨¹ý GetStdHandle(STD_OUTPUT_HANDLE)À´»ñµÃ£»
-        wAttributes ±íÊ¾ÎÄ×ÖÑÕÉ«ºÍ±³¾°ÑÕÉ«¡£
-        ÕâÀï²»È¥×·¾¿ HANDLE µÄº¬Òå£¬ºóÐøÔÚ Windows ¿ª·¢ÖÐ»áÏêÏ¸½²½â¡£
-        WORD ÔÚ windows.h ÖÐ¶¨Òå£¬µÈÍ¬ÓÚ unsigned short£¬Ê¹ÓÃµÍ 4 Î»±íÊ¾ÎÄ×Ö£¨Ç°¾°£©ÑÕÉ«£¬¸ß 4 Î»±íÊ¾ÎÄ×Ö
-        ±³¾°ÑÕÉ«£¬ËùÒÔËüµÄÈ¡ÖµÎª xx¡£ x ÎªÒ»Î» 16 ½øÖÆÊý£¬¼´ 0~F ¶¼¿ÉÒÔÊ¹ÓÃ£¬¿ÉÒÔËæÒâ×éºÏ¡£
-        0~F ·Ö±ð´ú±íµÄÑÕÉ«ÈçÏÂ£º
-        0 = ºÚÉ« 8 = »ÒÉ« 1 = µ­À¶ 9 = À¶É«
-        2 = µ­ÂÌ A = ÂÌÉ« 3 = ºþÀ¶ B = µ­Ç³ÂÌ
-        C = ºìÉ« 4 = µ­ºì 5 = ×ÏÉ« D = µ­×Ï
-        6 = »ÆÉ« E = µ­»Æ 7 = °×É« F = ÁÁ°×
+        hConsoleOutput è¡¨ç¤ºæŽ§åˆ¶å°ç¼“å†²åŒºå¥æŸ„ï¼Œå¯ä»¥é€šè¿‡ GetStdHandle(STD_OUTPUT_HANDLE)æ¥èŽ·å¾—ï¼›
+        wAttributes è¡¨ç¤ºæ–‡å­—é¢œè‰²å’ŒèƒŒæ™¯é¢œè‰²ã€‚
+        è¿™é‡Œä¸åŽ»è¿½ç©¶ HANDLE çš„å«ä¹‰ï¼ŒåŽç»­åœ¨ Windows å¼€å‘ä¸­ä¼šè¯¦ç»†è®²è§£ã€‚
+        WORD åœ¨ windows.h ä¸­å®šä¹‰ï¼Œç­‰åŒäºŽ unsigned shortï¼Œä½¿ç”¨ä½Ž 4 ä½è¡¨ç¤ºæ–‡å­—ï¼ˆå‰æ™¯ï¼‰é¢œè‰²ï¼Œé«˜ 4 ä½è¡¨ç¤ºæ–‡å­—
+        èƒŒæ™¯é¢œè‰²ï¼Œæ‰€ä»¥å®ƒçš„å–å€¼ä¸º xxã€‚ x ä¸ºä¸€ä½ 16 è¿›åˆ¶æ•°ï¼Œå³ 0~F éƒ½å¯ä»¥ä½¿ç”¨ï¼Œå¯ä»¥éšæ„ç»„åˆã€‚
+        0~F åˆ†åˆ«ä»£è¡¨çš„é¢œè‰²å¦‚ä¸‹ï¼š
+        0 = é»‘è‰² 8 = ç°è‰² 1 = æ·¡è“ 9 = è“è‰²
+        2 = æ·¡ç»¿ A = ç»¿è‰² 3 = æ¹–è“ B = æ·¡æµ…ç»¿
+        C = çº¢è‰² 4 = æ·¡çº¢ 5 = ç´«è‰² D = æ·¡ç´«
+        6 = é»„è‰² E = æ·¡é»„ 7 = ç™½è‰² F = äº®ç™½
     */
 
     puts("==================================");
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
     SetConsoleTextAttribute(hConsole, 0xC );
-    puts("ºìÉ«ÎÄ×Ö");
+    puts("çº¢è‰²æ–‡å­—");
 
 
 
