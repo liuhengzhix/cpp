@@ -2,6 +2,7 @@
 #include "my.h"
 int main()
 {
+    // TODO:编译未通过
     printf("%d\n", sum(1, 100));
     return 0;
 }
