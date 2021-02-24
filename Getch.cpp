@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <conio.h>
-#include<windows.h>
+#include <windows.h>
 
 int main()
 {
-    puts("================你号===================\n");
+    puts("===================================\n");
     /* char ch;
     int i = 0;
     while (ch = getch())
@@ -31,7 +31,7 @@ int main()
     while (1)
     {
         if (kbhit())
-        {                 //检测缓冲区中是否有数据
+        {                  //检测缓冲区中是否有数据
             ch1 = getch(); //将缓冲区中的数据以字符的形式读出
             if (ch1 == 27)
             {
@@ -41,7 +41,6 @@ int main()
         printf("Number: %d\n", ++j);
         Sleep(3000); //暂停 1 秒220
     }
-
 
     return 0;
 }
