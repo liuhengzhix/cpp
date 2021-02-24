@@ -25,7 +25,7 @@ int main()
     */
     /* char *str = NULL;
     gets(str);
-    //【空指针取地址用&str;输出值不用*号(千万别加\n会把(null)吞掉)】
+    //【空指针取地址用&str;输出值不用*号(代码中千万别加\n会把(null)吞掉)】
     printf("%s", str); */
 
     /*
