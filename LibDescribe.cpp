@@ -1,6 +1,6 @@
 #include <stdlib.h>  //%g小数的输出;ANSI C 规定的预定义宏
 #include <windows.h> //Sleep(毫秒值)函数
-#include <conio.h>   //和getche(),getch()函数有关
+#include <conio.h>   //和getche(),getch()函数有关;kbhit()函数
 #include <unistd.h>  //和sleep()函数有关linux下和mac下
 #include <string.h>  //和strlen(数组名)相关
 #include <cstdlib>   //和malloc函数有关
