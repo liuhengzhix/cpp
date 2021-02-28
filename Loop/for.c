@@ -32,7 +32,7 @@ int main()
             相当于：
             while(1) 语句
     */
-    
+
     /*
         C 语言跳出循环（break 和 continue）
         当 break 关键字用于 while、 for 循环时，会终止循环而执行整个循环语句后面的代码。 break 关键字通常和 if 语
@@ -51,12 +51,10 @@ int main()
     {
         for (int j = 1; j <= i; j++)
         {
-            printf("%-d*%-d=%-2d ", j, i, i*j);
+            printf("%-d*%-d=%-2d ", j, i, i * j);
         }
         printf("\n");
     }
-    
-    
 
     return 0;
 }

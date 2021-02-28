@@ -12,11 +12,8 @@ int main()
     int a, b;
     printf("请输入两个数字: \n");
     scanf("%d %d", &a, &b);
-    int max = (a>b) ? a : b;
+    int max = (a > b) ? a : b;
     printf("max=%d\n", max);
-
-
-
 
     return 0;
 }
