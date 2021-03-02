@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<windows.h>
+#include <stdio.h>
+#include <windows.h>
 
 int main()
 {
@@ -21,11 +21,8 @@ int main()
 
     puts("==================================");
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
-    SetConsoleTextAttribute(hConsole, 0xC );
+    SetConsoleTextAttribute(hConsole, 0xC);
     puts("红色文字");
-
-
-
 
     return 0;
 }
